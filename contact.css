@@ -1,0 +1,43 @@
+h1{
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    color: rgb(244, 8, 8);
+}
+body{
+   margin: 0 auto;
+   padding: 20px;
+   width: 60%;
+}
+form{
+    box-sizing: border-box;
+    border: 1px red dotted;
+    background-color: rgb(228, 238, 243);
+    max-height: 120vh;
+    padding: 20px;
+}
+.Particulars{
+    margin-top: 20px;
+}
+textarea{
+    height: 6rem;
+    width: 70%;
+}
+input{
+    height: 2rem;
+    width: 70%;
+}
+button{
+    border: none;
+    border-radius: 4px;
+    background-color: red;
+    color: whitesmoke;
+    margin-top: 20px;
+    width: 20%;
+    height: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button:hover{
+    background-color: rgb(46, 70, 202);
+    cursor: pointer;
+    border: 1px dotted black;
+}
